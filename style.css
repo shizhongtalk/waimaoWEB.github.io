@@ -1,0 +1,22 @@
+/* 自定义样式 */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Microsoft YaHei', sans-serif; /* 中文字体优化 */
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+    height: 250px;
+    object-fit: cover; /* 保持图片比例 */
+}
