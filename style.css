@@ -20,3 +20,48 @@ body {
     height: 250px;
     object-fit: cover; /* 保持图片比例 */
 }
+
+.card {
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    color: #2c3e50;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .price-tag {
+    background: #e74c3c;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    display: inline-block;
+  }
+
+  /* 悬停放大效果 */
+.card-img-top {
+    transition: transform 0.3s ease;
+  }
+  .card:hover .card-img-top {
+    transform: scale(1.05);
+  }
+  
+  /* 按钮点击动画 */
+  .btn-order {
+    transition: all 0.3s;
+    background: #3498db;
+    border: none;
+  }
+  .btn-order:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  h1, h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
